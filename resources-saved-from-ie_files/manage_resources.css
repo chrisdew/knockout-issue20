@@ -1,0 +1,48 @@
+.draggable {
+	CURSOR: move
+}
+UL#resources > LI.droppable_active {
+	BACKGROUND: #dfd; COLOR: #f00
+}
+LI > IMG {
+	VERTICAL-ALIGN: middle
+}
+DIV#main {
+	POSITION: relative; WIDTH: 100%; HEIGHT: 100%
+}
+DIV#resources {
+	POSITION: absolute; PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; WIDTH: 199px; PADDING-RIGHT: 10px; BACKGROUND: #eee; HEIGHT: 1800px; OVERFLOW: visible; TOP: 0px; BORDER-RIGHT: #fca 1px solid; PADDING-TOP: 30px; LEFT: 0px
+}
+UL#resources > LI {
+	PADDING-BOTTOM: 5px; MARGIN: 1px 1px 1px 21px; PADDING-LEFT: 5px; WIDTH: 178px; PADDING-RIGHT: 5px; DISPLAY: block; BACKGROUND: #eee; PADDING-TOP: 5px
+}
+UL#resources > LI.selected {
+	BORDER-BOTTOM: #fca 1px solid; BORDER-LEFT: #fca 1px solid; MARGIN: 0px 0px 0px 20px; BACKGROUND: #fff; BORDER-TOP: #fca 1px solid; BORDER-RIGHT: #fff 1px solid
+}
+UL#resources > LI:hover {
+	BACKGROUND: #fff
+}
+DIV#resource {
+	POSITION: absolute; PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; WIDTH: 249px; PADDING-RIGHT: 10px; BACKGROUND: #fff; HEIGHT: 800px; BORDER-RIGHT: #fca 1px solid; PADDING-TOP: 30px; LEFT: 220px
+}
+DIV#resource > FORM > DIV.form_row {
+	POSITION: relative; HEIGHT: 20px; MARGIN-LEFT: 20px; PADDING-TOP: 5px
+}
+DIV#resource FORM > DIV.form_row > INPUT {
+	POSITION: absolute; TOP: 0px; LEFT: 80px
+}
+UL#foos {
+	
+}
+UL#foos > LI {
+	PADDING-BOTTOM: 5px; MARGIN: 1px 1px 1px 21px; PADDING-LEFT: 5px; WIDTH: 228px; PADDING-RIGHT: 5px; DISPLAY: block; PADDING-TOP: 5px
+}
+UL#foos > LI.selected {
+	BORDER-BOTTOM: #fca 1px solid; BORDER-LEFT: #fca 1px solid; MARGIN: 0px 0px 0px 20px; BACKGROUND: #eee; BORDER-TOP: #fca 1px solid; BORDER-RIGHT: #eee 1px solid
+}
+UL#foos > LI:hover {
+	BACKGROUND: #eee
+}
+DIV#foo {
+	POSITION: absolute; PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; WIDTH: 200px; PADDING-RIGHT: 10px; BACKGROUND: #eee; HEIGHT: 800px; PADDING-TOP: 30px; LEFT: 490px
+}
